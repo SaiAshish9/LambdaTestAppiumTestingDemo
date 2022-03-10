@@ -23,3 +23,11 @@ import the project at intelliJ and run .xml file by right clicking it
 ```
 test will be present at the https://appautomation.lambdatest.com/build
 ```
+
+```
+curl -u "saiashish:accesskey" \
+--location --request POST 'https://manual-api.lambdatest.com/app/upload/realDevice' \
+--form 'name="Android_App"' \
+--form 'appFile=@"/Users/saiashishdarapureddy/Desktop/folders/projects/LT_Java_Appium/proverbial_android.apk"' \
+--form 'custom_id="ProAndroid"'
+```
